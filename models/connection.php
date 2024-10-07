@@ -12,9 +12,9 @@ class Connection{
 
 		$infoDB = array(
 
-			"database" => "panel",
-			"user" => "puentearandauser",
-			"pass" => "rjd%Ijj&CVfs"
+			"database" => "u145597152_estefania",
+			"user" => "u145597152_uestefania",
+			"pass" => "t7w:+r4K#"
 
 		);
 
