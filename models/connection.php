@@ -4,6 +4,7 @@ require_once "get.model.php";
 
 class Connection{
 
+	//hola
 	/*=============================================
 	Información de la base de datos
 	=============================================*/
