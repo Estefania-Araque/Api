@@ -12,6 +12,7 @@ class Connection{
 
 		$infoDB = array(
 //hola inge
+//ljhkfec
 			"database" => "u145597152_estefania",
 			"user" => "u145597152_ustefania",
 			"pass" => "t7w:+r4K#" 
