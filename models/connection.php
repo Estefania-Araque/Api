@@ -9,9 +9,9 @@ class Connection{
 	=============================================*/
 
 	static public function infoDatabase(){
-//hola
-		$infoDB = array(
 
+		$infoDB = array(
+//hola inge
 			"database" => "u145597152_estefania",
 			"user" => "u145597152_ustefania",
 			"pass" => "t7w:+r4K#" 
