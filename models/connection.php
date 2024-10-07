@@ -9,7 +9,7 @@ class Connection{
 	=============================================*/
 
 	static public function infoDatabase(){
-
+//hola
 		$infoDB = array(
 
 			"database" => "u145597152_estefania",
