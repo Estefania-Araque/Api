@@ -14,7 +14,7 @@ class Connection{
 
 			"database" => "u145597152_estefania",
 			"user" => "u145597152_uestefania",
-			"pass" => "t7w:+r4K#"
+			"pass" => " t7w:+r4K#"
 
 		);
 
