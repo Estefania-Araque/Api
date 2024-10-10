@@ -7,7 +7,7 @@ $routesArray = explode("/", $_SERVER['REQUEST_URI']);
 $routesArray = array_filter($routesArray);
 
 /*=============================================
-Cuando no se hace ninguna petici¨®n a la API
+Cuando no se hace ninguna peticiï¿½ï¿½n a la API
 =============================================*/
 
 if(count($routesArray) == 0){
@@ -26,7 +26,7 @@ if(count($routesArray) == 0){
 }
 
 /*=============================================
-Cuando si se hace una petici¨®n a la API
+Cuando si se hace una peticiï¿½ï¿½n a la API
 =============================================*/
 
 if(count($routesArray) == 1 && isset($_SERVER['REQUEST_METHOD'])){
@@ -37,7 +37,7 @@ if(count($routesArray) == 1 && isset($_SERVER['REQUEST_METHOD'])){
 	Validar llave secreta
 	=============================================*/
 
-	/**if(!isset(getallheaders()["Authorization"]) || getallheaders()["Authorization"] != Connection::apikey()){
+	if(!isset(getallheaders()["Authorization"]) || getallheaders()["Authorization"] != Connection::apikey()){
 
 		if($table!='relations'&&in_array($table, Connection::publicAccess()) == 0){
 	
@@ -55,8 +55,8 @@ if(count($routesArray) == 1 && isset($_SERVER['REQUEST_METHOD'])){
 		}else{
 
 			/*=============================================
-			Acceso p¨²blico
-			=============================================/
+			Acceso pï¿½ï¿½blico
+			=============================================*/
 			
 	    	$response = new GetController();
 			$response -> getData($table, "*",null,null,null,null);
@@ -64,7 +64,7 @@ if(count($routesArray) == 1 && isset($_SERVER['REQUEST_METHOD'])){
 			return;
 		}
 	
-	}**/
+	}
 	
 
 	/*=============================================
